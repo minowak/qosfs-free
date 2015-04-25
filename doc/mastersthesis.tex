@@ -1,0 +1,53 @@
+\documentclass[man,bazy,a4paper,11pt,sfheadings,noindentfirst]{mgrwms}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{clrscode}
+\usepackage{lmodern}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{%
+	pdfauthor={Michał Nowak},%
+	pdftitle={Zarządzanie jakością usług dla pamięci dyskowych},%
+	pdfborder={0 0 0},%
+	pdfkeywords={},%
+	pdfstartview=FitH,%
+	hypertexnames=false%
+}
+\usepackage{mastersthesis}
+
+\begin{document}
+
+\title{Zarządzanie jakością usług dla pamięci dyskowych}
+\author{Michał Nowak}
+\promotor{dr inż.\ Darin Nikolow}
+\nralbumu{228971}
+\keywords{quality of service, linux, fuse, vfs, file systems, disk storage, \FPclass, \sharpPclass-complete}
+
+\maketitle
+
+\renewcommand{\cfttoctitlefont}{\LARGE\sffamily\bfseries}
+\renewcommand{\cftchapfont}{\sffamily\bfseries}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsecleader}{\sffamily\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsecpagefont}{\sffamily}
+\setlength{\cftbeforechapskip}{3.75mm}
+
+\tableofcontents
+
+\vskip1in
+
+\include{introduction}
+
+\bibliographystyle{alpha}
+\bibliography{mastersthesis}
+\nocite{*}
+
+\end{document}

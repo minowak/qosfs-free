@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1\relax .\kern .5em }Wst\IeC {\k e}p}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1\relax .\kern .5em }Problem}{2}{section.2}
+\contentsline {section}{\numberline {1.2\relax .\kern .5em }Cel badawczy}{3}{section.5}
+\contentsline {subsection}{\numberline {1.2.1\relax .\kern .5em }Cel praktyczny}{3}{subsection.6}
+\contentsline {subsection}{\numberline {1.2.2\relax .\kern .5em }Cel teoretyczny}{4}{subsection.11}
+\contentsline {chapter}{Bibliografia}{5}{chapter*.12}
